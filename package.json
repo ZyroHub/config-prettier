@@ -8,6 +8,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZyroHub/config-prettier.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "license": "MIT",
   "peerDependencies": {
