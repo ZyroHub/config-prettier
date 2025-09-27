@@ -1,5 +1,6 @@
-/** @type {import('prettier').Config} */
-const config = {
+import { Config } from "prettier";
+
+const config: Config = {
   trailingComma: "none",
   semi: true,
   tabWidth: 4,
@@ -26,5 +27,7 @@ const config = {
 
   plugins: ["@trivago/prettier-plugin-sort-imports"],
 };
+
+export const prettierConfig = config;
 
 export default config;

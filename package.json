@@ -4,9 +4,10 @@
   "author": "DMVMarcio",
   "description": "Prettier configuration for ZyroHub.",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/declarations/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "license": "MIT",
   "peerDependencies": {
@@ -22,5 +26,8 @@
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
   }
 }
