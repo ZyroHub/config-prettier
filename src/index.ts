@@ -20,6 +20,7 @@ const config: Config = {
     "^@/utils/?(.*)$",
     "^@/settings/?(.*)$",
     "^@/http/?(.*)$",
+    "^@/handlers/?(.*)$",
     "^[./]",
   ],
   importOrderSeparation: true,
