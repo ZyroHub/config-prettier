@@ -1,6 +1,6 @@
 {
   "name": "@zyrohub/config-prettier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "DMVMarcio",
   "description": "Prettier configuration for ZyroHub.",
   "type": "module",
