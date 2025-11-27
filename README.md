@@ -12,7 +12,7 @@
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
 - [Basic Usage](#basic-usage)
-	- [Extending Prettier Configuration](#extending-prettier-configuration)
+  - [Extending Prettier Configuration](#extending-prettier-configuration)
 
 ## Getting Started
 
@@ -22,13 +22,13 @@ To install the prettier config, use one of the following package managers:
 
 ```bash
 # npm
-npm install @zyrohub/config-prettier
+npm install --save-dev @zyrohub/config-prettier
 # yarn
-yarn add @zyrohub/config-prettier
+yarn add -D @zyrohub/config-prettier
 # pnpm
-pnpm add @zyrohub/config-prettier
+pnpm add -D @zyrohub/config-prettier
 # bun
-bun add @zyrohub/config-prettier
+bun add -d @zyrohub/config-prettier
 ```
 
 ## Basic Usage
@@ -39,7 +39,7 @@ bun add @zyrohub/config-prettier
 import { prettierConfig } from "@zyrohub/config-prettier";
 
 export default {
-  ...prettierConfig
+  ...prettierConfig,
 
   // Add your custom Prettier options here
 };
