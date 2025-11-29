@@ -1,6 +1,6 @@
 {
   "name": "@zyrohub/config-prettier",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "DMVMarcio",
   "description": "Prettier configuration for ZyroHub.",
   "type": "module",
@@ -22,7 +22,7 @@
   "keywords": [],
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "^3.6.2"
+    "prettier": "3.6.2"
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^5.2.2"
